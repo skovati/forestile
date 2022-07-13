@@ -49,7 +49,7 @@ forestile
 ```
 
 ### Command line options
-See [docs/forestile.md]
+See [forestile(1)](doc/forestile.md)
 
 ## Contributing
 
