@@ -1,22 +1,19 @@
 # forestile
 
-A slightly modified version of _rivertile_ layout generator for
+A _slightly_ modified version of the _rivertile_ layout generator for
 **[river]**
 
 Compared to _rivertile_, _forestile_ adds:
+- runtime mutatation of padding
 
 ## Building
 
-Same requirements as **[river]**, use [zig] 0.9, if **[river]** and
-_rivertile_ works on your machine you shouldn't have any problems.
+Same requirements as **[river]**
 
-Init submodules:
-
-    git submodule update --init
-
-Build, `e.g.`
-
-    zig build --prefix ~/.local
+```sh
+git submodule update --init
+zig build --prefix ~/.local
+```
 
 ## Usage
 
@@ -26,7 +23,7 @@ specific to forestile.
 
 `e.g.` In your **river** init (usually `$XDG_CONFIG_HOME/river/init`)
 
-```bash
+```sh
 # Mod+H and Mod+L to decrease/increase the main ratio of forestile
 riverctl map normal $mod H send-layout-cmd forestile "main-ratio -0.05"
 riverctl map normal $mod L send-layout-cmd forestile "main-ratio +0.05"
