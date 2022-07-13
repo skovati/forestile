@@ -51,15 +51,15 @@ forestile
 ### Command line options
 See [forestile(1)](doc/forestile.md)
 
-## Contributing
-
-See [CONTRIBUTING.md]
+## Thanks
 
 Much thanks to [novakane](https://sr.ht/~novakane/rivercarro/), as this project layout was heavily derived from their project.
 
+Additionally, thanks to [isaac freund], the [river] project, and the [zig] lang.
+
 ## License
 
-forestile is licensed under the [GNU General Public License v3.0 or later]
+forestile is licensed under the [GNU General Public License v3.0 or later](LICENSE)
 
 Files in `common/` and `protocol/` directories are released under various
 licenses by various parties. You should refer to the copyright block of each
@@ -67,6 +67,4 @@ files for the licensing information.
 
 [river]: https://github.com/ifreund/river
 [zig]: https://ziglang.org/download/
-[contributing.md]: CONTRIBUTING.md
 [isaac freund]: https://github.com/ifreund
-[gnu general public license v3.0 or later]: LICENSE
