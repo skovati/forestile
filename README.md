@@ -49,27 +49,7 @@ forestile
 ```
 
 ### Command line options
-
-```
-$ forestile -h
-Usage: forestile [options...]
-
-  -h              Print this help message and exit.
-  -version        Print the version number and exit.
-
-  The following commands may also be sent to forestile at runtime:
-
-  -main-location  Set the initial location of the main area in the
-                  layout. (Default left)
-  -main-count     Set the initial number of views in the main area of the
-                  layout. (Default 1)
-  -main-ratio     Set the initial ratio of main area to total layout
-                  area. (Default: 0.6)
-  -width-ratio    Set the ratio of the usable area width of the screen.
-                  (Default: 1.0)
-
-  See forestile(1) man page for more documentation.
-```
+See [docs/forestile.md]
 
 ## Contributing
 
